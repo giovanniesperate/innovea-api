@@ -1,0 +1,11 @@
+{
+  "name": "innovea-api",
+  "version": "1.0.0",
+  "description": "innovea-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovannie Szilagyi Sperate",
+  "license": "ISC"
+}
