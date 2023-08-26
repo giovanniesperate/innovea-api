@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "innovea-api",
   "main": "index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.15.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ./bin/server.js"
   },
   "author": "Giovannie Szilagyi Sperate",
   "license": "ISC"
